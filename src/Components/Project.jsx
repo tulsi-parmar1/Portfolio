@@ -40,11 +40,11 @@ const Project = () => {
               personalized job recommendations to connect talent with
               opportunities seamlessly.
             </p>
-            <a href="">
+            <span>
               {" "}
               <CiLink />
               view project
-            </a>
+            </span>
           </div>
         </a>
         <a
@@ -68,9 +68,9 @@ const Project = () => {
               and categorize expenses in real-time, helping users stay on top of
               their finances effortlessly.
             </p>
-            <a href="">
+            <span>
               <CiLink /> view project
-            </a>
+            </span>
           </div>
         </a>
         <a href="https://github.com/tulsi-parmar1/Quiz-App" target="_blank">
@@ -91,9 +91,9 @@ const Project = () => {
               taking quizzes, featuring real-time scoring and customizable quiz
               options for an engaging learning experience.
             </p>
-            <a href="">
+            <span>
               <CiLink /> view project
-            </a>
+            </span>
           </div>
         </a>
         <a href="https://github.com/tulsi-parmar1/php-crud-app" target="_blank">
@@ -114,9 +114,9 @@ const Project = () => {
               Read, Update, and Delete data efficiently, offering a robust
               solution for managing database records.
             </p>
-            <a href="">
+            <span>
               <CiLink /> view project
-            </a>
+            </span>
           </div>
         </a>
       </div>

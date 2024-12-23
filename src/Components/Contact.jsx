@@ -44,12 +44,6 @@ function Contact() {
           >
             <FaLinkedin /> Follow on LinkedIn
           </a>
-          <a href="">
-            {" "}
-            <FaInstagram />
-            <span> </span>
-            Follow on Instagram
-          </a>
           <a href="mailto:parmartulsi222@gmail.com">
             {" "}
             <MdOutlineEmail />

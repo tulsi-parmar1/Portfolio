@@ -1,30 +1,23 @@
 import style from "../Modules/About.module.css";
-import myImage from "../assets/portfolio.jpg";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
 import { MdOutlineEmail } from "react-icons/md";
 import { FaInstagram } from "react-icons/fa";
 function About() {
   return (
     <>
-      {/* <h1 className={style.about}>About me</h1> */}
       <div className={style.aboutcontent}>
-        <img src={myImage} alt="" />
         <p style={{ color: "gray" }}>
-          Hi, I’m Tulsi Parmar, and I'm currently in last sem from MKBU with a
-          degree in BCA. A proactive and detail-oriented Full-Stack Developer
-          with expertise in the MERN stack (MongoDB, Express.js, React, Node.js)
-          and sql. I have hands-on experience in designing, developing, and
-          deploying scalable web applications that align with business goals and
-          provide seamless user experiences. I thrive in solving real-world
-          challenges through innovative and efficient solutions. With a strong
-          focus on clean code, best practices, and collaborative teamwork, I
-          ensure that my contributions drive both product success and user
-          satisfaction. Collaborating with others is a great way to learn and
-          grow, and I'm always open to new ideas and feedback. Let’s connect to
-          discuss how I can add value to your team and help your organization
-          achieve its goals!
+          Hi, I’m Tulsi Parmar A proactive and detail-oriented Full-Stack
+          Developer with expertise in the MERN stack (MongoDB, Express.js,
+          React, Node.js) and sql. I thrive in solving real-world challenges
+          through innovative and efficient solutions. With a strong focus on
+          clean code, best practices, and collaborative teamwork, I ensure that
+          my contributions drive both product success and user satisfaction.
+          Collaborating with others is a great way to learn and grow, and I'm
+          always open to new ideas and feedback. Let’s connect to discuss how I
+          can add value to your team and help your organization achieve its
+          goals!
         </p>
       </div>
       <div className={style.follow}>
@@ -36,12 +29,6 @@ function About() {
           target="_blank"
         >
           <FaLinkedin /> Follow on LinkedIn
-        </a>
-        <a href="">
-          {" "}
-          <FaInstagram />
-          <span> </span>
-          Follow on Instagram
         </a>
         <a href="mailto:parmartulsi222@gmail.com">
           {" "}
