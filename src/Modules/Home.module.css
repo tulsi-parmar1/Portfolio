@@ -1,0 +1,83 @@
+.content {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between; /* Ensures space on the left and right of the elements */
+  align-items: center;
+  padding: 0 2rem; /* Adds some space on the left and right edges */
+  margin: 0 auto; /* Centers the content horizontally */
+  max-width: 1200px; /* Limits the width of the content */
+  min-height: 100vh; /* Ensures the section takes the full viewport height */
+  margin-top: -70px;
+}
+.btnn a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.intro {
+  flex: 1; /* Takes up remaining space */
+  margin-right: 2rem; /* Adds space between the intro text and the image */
+}
+.name {
+  color: white;
+  font-size: 50px;
+}
+.introduction {
+  font-size: 18px;
+  line-height: 1.6;
+  color: rgba(128, 128, 128, 0.77); /* Adjust text color */
+}
+.btnn {
+  background-color: #0d7377;
+  width: 200px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.laptopimg {
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.529);
+  transition: 0.3s;
+  &:hover {
+    box-shadow: 0px 0px 80px rgba(255, 255, 255, 0.529);
+  }
+}
+
+.btnn:hover {
+  background-color: #124345;
+}
+@media screen and (max-width: 838px) {
+  .content {
+    flex-direction: column-reverse;
+    margin-right: -10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .btnn {
+    width: 120px;
+  }
+  .btndiv {
+    margin-left: 30px;
+  }
+  .laptopimg {
+    margin-top: 30px;
+    margin-left: -20px;
+    height: 250px;
+    width: 250px;
+  }
+  .introduction {
+    font-size: 15px;
+    margin-right: -30px;
+  }
+  .name {
+    font-size: 25px;
+    text-align: center;
+  }
+  .laptopimg {
+    box-shadow: 0px 0px 60px rgba(255, 255, 255, 0.455);
+  }
+}

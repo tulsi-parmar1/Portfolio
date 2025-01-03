@@ -1,0 +1,122 @@
+.navbar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 61px;
+  z-index: 2;
+  padding: 0 10%;
+  position: sticky;
+  padding-top: 60px;
+  top: 0px;
+  background-color: black;
+}
+.title {
+  font-size: 30px;
+  font-weight: 660px;
+  text-decoration: none;
+  color: white;
+}
+.menuitems li {
+  display: inline-block;
+  padding: 20px;
+  position: relative;
+}
+.menuitems li a::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background-color: #0d7377;
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  transition: 0.3s;
+}
+.menuitems li a:hover::after {
+  width: 100%;
+}
+
+.menuitems li a {
+  color: white;
+}
+.menuitems a {
+  font-size: 23px;
+  text-decoration: none;
+}
+.icon {
+  display: none;
+}
+.icon2 {
+  display: none;
+}
+.menuitems li a:hover {
+  color: gray;
+}
+
+.navbar .active {
+  color: #0d7377;
+}
+
+@media screen and (max-width: 916px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 10px;
+  }
+  .menu {
+    position: absolute;
+    right: 0;
+    margin-right: 10%;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 11px;
+    z-index: 3;
+  }
+  .icon {
+    display: block;
+    cursor: pointer;
+    color: white;
+    margin-right: -50px;
+    z-index: 5;
+    height: 30px;
+    width: 100px;
+  }
+  .icon2 {
+    display: block;
+    cursor: pointer;
+    color: white;
+    padding: 9px;
+    position: relative;
+    left: 150px;
+    height: 50px;
+    width: 100px;
+    z-index: 5;
+    top: -10px;
+  }
+  .menuitems {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+  }
+  .menuopen {
+    display: flex;
+    z-index: 3;
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .menuopen li a:hover {
+    color: gray;
+  }
+}
+@media screen and (max-width: 598px) {
+  .title {
+    font-size: 23px;
+  }
+  .icon {
+    height: 26px;
+  }
+}
