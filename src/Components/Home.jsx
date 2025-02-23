@@ -1,12 +1,10 @@
 import style from "../Modules/Home.module.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Typed from "typed.js";
-import img from "../assets/WhatsApp Image 2024-12-22 at 20.39.24_e26aef0a.jpg";
-import { useEffect } from "react";
+
 import Project from "../Components/Project.jsx";
 import Skills from "./Skills.jsx";
 import Pink from "../assets/pink.jpg";
-import tulsiparmar from "../assets/Tulsi_Parmar.pdf";
+import tulsiparmar from "../assets/TULSI PARMAR2.pdf";
 const Home = () => {
   return (
     <>

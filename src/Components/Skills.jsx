@@ -91,7 +91,7 @@ function Skills() {
           </div>
 
           <div className={style.logos}>
-            <h1>Databse</h1>
+            <h1>Database</h1>
             <div
               style={{ display: "flex", flexDirection: "column", gap: "10px" }}
             >
