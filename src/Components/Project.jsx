@@ -96,29 +96,6 @@ const Project = () => {
             </span>
           </div>
         </a>
-        <a href="https://github.com/tulsi-parmar1/php-crud-app" target="_blank">
-          <div className={style.project}>
-            <div
-              style={{
-                display: "flex",
-                alignItems: "center",
-                gap: "10px",
-                marginLeft: "-10px",
-              }}
-            >
-              <img src={php} alt="" />
-              <h4>PHP-CURD application</h4>
-            </div>
-            <p>
-              A streamlined web app built with PHP, enabling users to Create,
-              Read, Update, and Delete data efficiently, offering a robust
-              solution for managing database records.
-            </p>
-            <span>
-              <CiLink /> view project
-            </span>
-          </div>
-        </a>
       </div>
     </>
   );
