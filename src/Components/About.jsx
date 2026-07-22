@@ -10,7 +10,7 @@ function About() {
         <p style={{ color: "gray" }}>
           Hi, I’m Tulsi Parmar A proactive and detail-oriented Full-Stack
           Developer with expertise in the MERN stack (MongoDB, Express.js,
-          React, Node.js) and sql. I thrive in solving real-world challenges
+          React, Node.js) and SQL. I thrive in solving real-world challenges
           through innovative and efficient solutions. With a strong focus on
           clean code, best practices, and collaborative teamwork, I ensure that
           my contributions drive both product success and user satisfaction.
