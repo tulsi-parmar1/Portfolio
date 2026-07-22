@@ -31,7 +31,6 @@ const Project = () => {
                 marginLeft: "-10px",
               }}
             >
-              <img src={jsIcon} alt="" />
               <h4>HireHub</h4>
             </div>
             <p>
@@ -60,7 +59,6 @@ const Project = () => {
                 marginLeft: "-10px",
               }}
             >
-              <img src={jsIcon} alt="" />
               <h4>Expense-Tracker</h4>
             </div>
             <p>
@@ -83,13 +81,38 @@ const Project = () => {
                 marginLeft: "-10px",
               }}
             >
-              <img src={jsIcon} alt="" />
               <h4>Quiz app</h4>
             </div>
             <p>
               An interactive MERN stack application for creating, managing, and
               taking quizzes, featuring real-time scoring and customizable quiz
               options for an engaging learning experience.
+            </p>
+            <span>
+              <CiLink /> view project
+            </span>
+          </div>
+        </a>
+        ------------------chatting app---------------------
+        <a
+          href="https://github.com/tulsi-parmar1/chatting_website"
+          target="_blank"
+        >
+          <div className={style.project}>
+            <div
+              style={{
+                display: "flex",
+                alignItems: "center",
+                gap: "10px",
+                marginLeft: "-10px",
+              }}
+            >
+              <h4>Chat app</h4>
+            </div>
+            <p>
+              Built a full-stack real-time chat application using MongoDB,
+              Express.js, React, and Node.js. Integrated Socket.IO to enable
+              instant message delivery and a smooth user experience.
             </p>
             <span>
               <CiLink /> view project
