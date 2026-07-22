@@ -93,7 +93,7 @@ const Project = () => {
             </span>
           </div>
         </a>
-        ------------------chatting app---------------------
+        {/* ------------------chatting app--------------------- */}
         <a
           href="https://github.com/tulsi-parmar1/chatting_website"
           target="_blank"
